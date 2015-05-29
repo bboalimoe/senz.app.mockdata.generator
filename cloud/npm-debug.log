@@ -1,0 +1,653 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'avoscloud-sdk' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'avoscloud-sdk', null ]
+5 verbose cache add spec avoscloud-sdk
+6 silly cache add parsed spec { raw: 'avoscloud-sdk',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'avoscloud-sdk',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed avoscloud-sdk@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'avoscloud-sdk', range: '*', hasData: false }
+11 silly mapToRegistry name avoscloud-sdk
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/avoscloud-sdk
+15 verbose addNameRange registry:https://registry.npmjs.org/avoscloud-sdk not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/avoscloud-sdk
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 21:02:17
+19 verbose request id 45b9b048ef0d3b07
+20 verbose etag "3YY2XATKLCUOS6PKIHEEBP3BN"
+21 http request GET https://registry.npmjs.org/avoscloud-sdk
+22 http 200 https://registry.npmjs.org/avoscloud-sdk
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"45F7AQJL2XCQ8UEKNS3SFNUIR"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '24941',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Thu, 28 May 2015 13:02:20 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-fra1246-FRA',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1432818139.664861,VS0,VE353',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving avoscloud-sdk to /Users/zhanghengyang/.npm/registry.npmjs.org/avoscloud-sdk/.cache.json
+25 silly addNameRange number 2 { name: 'avoscloud-sdk', range: '*', hasData: true }
+26 silly addNameRange versions [ 'avoscloud-sdk',
+26 silly addNameRange   [ '0.1.0',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.2.3',
+26 silly addNameRange     '0.2.4',
+26 silly addNameRange     '0.2.5',
+26 silly addNameRange     '0.2.6',
+26 silly addNameRange     '0.2.7',
+26 silly addNameRange     '0.2.8',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.3.3',
+26 silly addNameRange     '0.3.4',
+26 silly addNameRange     '0.3.6',
+26 silly addNameRange     '0.3.7',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.4.2',
+26 silly addNameRange     '0.4.3',
+26 silly addNameRange     '0.4.4',
+26 silly addNameRange     '0.4.5',
+26 silly addNameRange     '0.4.6',
+26 silly addNameRange     '0.4.7',
+26 silly addNameRange     '0.4.9',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.5.1',
+26 silly addNameRange     '0.5.4' ] ]
+27 verbose addNamed avoscloud-sdk@0.5.4
+28 silly addNamed semver.valid 0.5.4
+29 silly addNamed semver.validRange 0.5.4
+30 silly mapToRegistry name avoscloud-sdk
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/avoscloud-sdk
+34 verbose addRemoteTarball https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.4.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.4.tgz',
+35 verbose addRemoteTarball   'd12db539c56f013669d7e21ea29767655b5f5a9e' ]
+36 info retry fetch attempt 1 at 21:02:21
+37 info attempt registry request try #1 at 21:02:21
+38 http fetch GET https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.4.tgz
+39 http fetch 200 https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.4.tgz
+40 silly fetchAndShaCheck shasum d12db539c56f013669d7e21ea29767655b5f5a9e
+41 verbose addTmpTarball /tmp/npm-61200-fa6e01eb/registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.4.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for avoscloud-sdk@0.5.4
+43 silly cache afterAdd avoscloud-sdk@0.5.4
+44 verbose afterAdd /Users/zhanghengyang/.npm/avoscloud-sdk/0.5.4/package/package.json not in flight; writing
+45 verbose afterAdd /Users/zhanghengyang/.npm/avoscloud-sdk/0.5.4/package/package.json written
+46 silly install resolved [ { name: 'avoscloud-sdk',
+46 silly install resolved     version: '0.5.4',
+46 silly install resolved     main: './dist/av.js',
+46 silly install resolved     description: 'AVOSCloud JavaScript SDK.',
+46 silly install resolved     repository:
+46 silly install resolved      { type: 'git',
+46 silly install resolved        url: 'https://github.com/avoscloud/javascript-sdk' },
+46 silly install resolved     dependencies: { xmlhttprequest: '1.6.0', qiniu: '6.1.3' },
+46 silly install resolved     devDependencies:
+46 silly install resolved      { debug: '^2.1.1',
+46 silly install resolved        'expect.js ': '0.2.0',
+46 silly install resolved        gulp: '^3.8.10',
+46 silly install resolved        'gulp-clean': '^0.3.1',
+46 silly install resolved        'gulp-concat': '^2.4.3',
+46 silly install resolved        'gulp-gzip': '0.0.8',
+46 silly install resolved        'gulp-jsdoc': '^0.1.4',
+46 silly install resolved        'gulp-mocha': '^2.0.0',
+46 silly install resolved        'gulp-order': '^1.1.1',
+46 silly install resolved        'gulp-rename': '^1.2.0',
+46 silly install resolved        'gulp-shell': '^0.2.11',
+46 silly install resolved        'gulp-tar': '^1.3.2',
+46 silly install resolved        'gulp-uglify': '^1.0.2',
+46 silly install resolved        mocha: '1.9.0' },
+46 silly install resolved     license: 'MIT',
+46 silly install resolved     author: { name: 'dennis zhuang', email: 'xzhuang@avos.com' },
+46 silly install resolved     gitHead: '713f60a0e9af8cbd0946077a20cae02fd1dd5ee6',
+46 silly install resolved     bugs: { url: 'https://github.com/avoscloud/javascript-sdk/issues' },
+46 silly install resolved     homepage: 'https://github.com/avoscloud/javascript-sdk',
+46 silly install resolved     _id: 'avoscloud-sdk@0.5.4',
+46 silly install resolved     scripts: {},
+46 silly install resolved     _shasum: 'd12db539c56f013669d7e21ea29767655b5f5a9e',
+46 silly install resolved     _from: 'avoscloud-sdk@*',
+46 silly install resolved     _npmVersion: '2.5.1',
+46 silly install resolved     _nodeVersion: '0.12.0',
+46 silly install resolved     _npmUser: { name: 'avos', email: 'xzhuang@avos.com' },
+46 silly install resolved     maintainers: [ [Object] ],
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: 'd12db539c56f013669d7e21ea29767655b5f5a9e',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.4.tgz' },
+46 silly install resolved     directories: {},
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/avoscloud-sdk/-/avoscloud-sdk-0.5.4.tgz' } ]
+47 info install avoscloud-sdk@0.5.4 into /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping
+48 info installOne avoscloud-sdk@0.5.4
+49 verbose installOne of avoscloud-sdk to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping not in flight; installing
+50 verbose lock using /Users/zhanghengyang/.npm/_locks/avoscloud-sdk-f56e10de6bedf87b.lock for /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk
+51 silly install write writing avoscloud-sdk 0.5.4 to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk
+52 silly cache addNamed cb avoscloud-sdk@0.5.4
+53 verbose unbuild node_modules/avoscloud-sdk
+54 verbose gentlyRm vacuuming /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk
+55 verbose tar unpack /Users/zhanghengyang/.npm/avoscloud-sdk/0.5.4/package.tgz
+56 verbose tar unpacking to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk
+57 verbose gentlyRm vacuuming /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry gulpfile.js
+63 silly gunzTarPerm extractEntry lib/acl.js
+64 silly gunzTarPerm extractEntry lib/history.js
+65 silly gunzTarPerm extractEntry lib/localStorage.js
+66 silly gunzTarPerm extractEntry lib/object.js
+67 silly gunzTarPerm extractEntry lib/op.js
+68 silly gunzTarPerm extractEntry lib/geopoint.js
+69 silly gunzTarPerm extractEntry lib/push.js
+70 silly gunzTarPerm extractEntry lib/query.js
+71 silly gunzTarPerm extractEntry lib/relation.js
+72 silly gunzTarPerm extractEntry lib/role.js
+73 silly gunzTarPerm extractEntry lib/router.js
+74 silly gunzTarPerm extractEntry lib/file.js
+75 silly gunzTarPerm extractEntry lib/search.js
+76 silly gunzTarPerm extractEntry lib/facebook.js
+77 silly gunzTarPerm extractEntry lib/status.js
+78 silly gunzTarPerm extractEntry lib/event.js
+79 silly gunzTarPerm extractEntry lib/underscore.js
+80 silly gunzTarPerm extractEntry lib/error.js
+81 silly gunzTarPerm extractEntry lib/user.js
+82 silly gunzTarPerm extractEntry lib/collection.js
+83 silly gunzTarPerm extractEntry lib/utils.js
+84 silly gunzTarPerm extractEntry lib/cloudfunction.js
+85 silly gunzTarPerm extractEntry lib/version.js
+86 silly gunzTarPerm extractEntry lib/av.js
+87 silly gunzTarPerm extractEntry lib/view.js
+88 silly gunzTarPerm extractEntry lib/promise.js
+89 silly gunzTarPerm extractEntry dist/av-core-mini.js
+90 silly gunzTarPerm extractEntry dist/av-core.js
+91 silly gunzTarPerm extractEntry dist/av-mini.js
+92 silly gunzTarPerm extractEntry dist/av.js
+93 silly gunzTarPerm extractEntry dist/localStorage.js
+94 silly gunzTarPerm extractEntry dist/avos-javascript-sdk-0.5.3.tar.gz
+95 silly gunzTarPerm extractEntry dist/avos-javascript-sdk-0.5.4.tar.gz
+96 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/files.html
+97 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/index.html
+98 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Op.Increment.html
+99 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.ACL.html
+100 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.AfterUpdateRequest.html
+101 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.BeforeDeleteRequest.html
+102 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.BeforeDeleteResponse.html
+103 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.BeforeSaveRequest.html
+104 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.BeforeSaveResponse.html
+105 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.FunctionRequest.html
+106 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.FunctionResponse.html
+107 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.html
+108 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Collection.html
+109 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Error.html
+110 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Events.html
+111 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.FacebookUtils.html
+112 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.File.html
+113 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.GeoPoint.html
+114 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.History.html
+115 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.InboxQuery.html
+116 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Object.html
+117 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Op.Add.html
+118 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Op.AddUnique.html
+119 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Cloud.AfterSaveRequest.html
+120 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Op.Relation.html
+121 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Op.Remove.html
+122 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Op.Set.html
+123 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Op.Unset.html
+124 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Op.html
+125 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Promise.html
+126 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Push.html
+127 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Query.html
+128 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Relation.html
+129 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Role.html
+130 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Router.html
+131 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.SearchQuery.html
+132 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.SearchSortBuilder.html
+133 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.Status.html
+134 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.User.html
+135 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.View.html
+136 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/AV.html
+137 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/_global_.html
+138 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/avosExpressCookieSession.html
+139 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/avosExpressHttpsRedirect.html
+140 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/src/dist_av.js.html
+141 silly gunzTarPerm extractEntry dist/js-sdk-api-docs/symbols/src/lib_cloud.js.html
+142 silly gunzTarPerm extractEntry dist/js-sdk-api-docs-0.5.3.tar.gz
+143 silly gunzTarPerm extractEntry dist/js-sdk-api-docs-0.5.4.tar.gz
+144 silly gunzTarPerm extractEntry bower.json
+145 silly gunzTarPerm extractEntry test/acl.js
+146 silly gunzTarPerm extractEntry test/test.js
+147 silly gunzTarPerm extractEntry test/file.js
+148 silly gunzTarPerm extractEntry test/status.js
+149 silly gunzTarPerm extractEntry test/error.js
+150 silly gunzTarPerm extractEntry test/object.js
+151 silly gunzTarPerm extractEntry test/collection.js
+152 silly gunzTarPerm extractEntry test/query.js
+153 silly gunzTarPerm extractEntry test/search.js
+154 silly gunzTarPerm extractEntry test/sms.js
+155 silly gunzTarPerm extractEntry test/geopoints.js
+156 silly gunzTarPerm extractEntry test/user.js
+157 silly gunzTarPerm extractEntry test/promise.js
+158 silly gunzTarPerm extractEntry test/file_form.html
+159 silly gunzTarPerm extractEntry test/test.html
+160 silly gunzTarPerm extractEntry test/file.html
+161 silly gunzTarPerm extractEntry changelog.md
+162 silly gunzTarPerm extractEntry readme.txt
+163 info preinstall avoscloud-sdk@0.5.4
+164 silly prepareForInstallMany adding xmlhttprequest@1.6.0 from avoscloud-sdk dependencies
+165 silly prepareForInstallMany adding qiniu@6.1.3 from avoscloud-sdk dependencies
+166 silly cache add args [ 'qiniu@6.1.3', null ]
+167 verbose cache add spec qiniu@6.1.3
+168 silly cache add parsed spec { raw: 'qiniu@6.1.3',
+168 silly cache add   scope: null,
+168 silly cache add   name: 'qiniu',
+168 silly cache add   rawSpec: '6.1.3',
+168 silly cache add   spec: '6.1.3',
+168 silly cache add   type: 'version' }
+169 verbose addNamed qiniu@6.1.3
+170 silly addNamed semver.valid 6.1.3
+171 silly addNamed semver.validRange 6.1.3
+172 silly mapToRegistry name qiniu
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry uri https://registry.npmjs.org/qiniu
+176 verbose addNameVersion registry:https://registry.npmjs.org/qiniu not in flight; fetching
+177 silly cache add args [ 'xmlhttprequest@1.6.0', null ]
+178 verbose cache add spec xmlhttprequest@1.6.0
+179 silly cache add parsed spec { raw: 'xmlhttprequest@1.6.0',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'xmlhttprequest',
+179 silly cache add   rawSpec: '1.6.0',
+179 silly cache add   spec: '1.6.0',
+179 silly cache add   type: 'version' }
+180 verbose addNamed xmlhttprequest@1.6.0
+181 silly addNamed semver.valid 1.6.0
+182 silly addNamed semver.validRange 1.6.0
+183 silly mapToRegistry name xmlhttprequest
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/xmlhttprequest
+187 verbose addNameVersion registry:https://registry.npmjs.org/xmlhttprequest not in flight; fetching
+188 verbose request uri https://registry.npmjs.org/xmlhttprequest
+189 verbose request no auth needed
+190 info attempt registry request try #1 at 21:03:09
+191 verbose etag "CC1RGYYZNZFXLUDU4U493RV4F"
+192 http request GET https://registry.npmjs.org/xmlhttprequest
+193 verbose request uri https://registry.npmjs.org/qiniu
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 21:03:09
+196 verbose etag "F42UN01IDPH7APLZ1JQ68Y7DK"
+197 http request GET https://registry.npmjs.org/qiniu
+198 http 200 https://registry.npmjs.org/xmlhttprequest
+199 silly get cb [ 200,
+199 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+199 silly get     etag: '"2ITTDSC24NJ0RTJ5GQRMXVM5W"',
+199 silly get     'content-type': 'application/json',
+199 silly get     'cache-control': 'max-age=60',
+199 silly get     'content-length': '11318',
+199 silly get     'accept-ranges': 'bytes',
+199 silly get     date: 'Thu, 28 May 2015 13:03:10 GMT',
+199 silly get     via: '1.1 varnish',
+199 silly get     age: '10',
+199 silly get     connection: 'keep-alive',
+199 silly get     'x-served-by': 'cache-fra1226-FRA',
+199 silly get     'x-cache': 'HIT',
+199 silly get     'x-cache-hits': '1',
+199 silly get     'x-timer': 'S1432818190.912443,VS0,VE0',
+199 silly get     vary: 'Accept' } ]
+200 verbose get saving xmlhttprequest to /Users/zhanghengyang/.npm/registry.npmjs.org/xmlhttprequest/.cache.json
+201 silly mapToRegistry name xmlhttprequest
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry uri https://registry.npmjs.org/xmlhttprequest
+205 verbose addRemoteTarball https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.6.0.tgz not in flight; adding
+206 verbose addRemoteTarball [ 'https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.6.0.tgz',
+206 verbose addRemoteTarball   '493d285f59266fdcb8d4fefd25345a7b693c966c' ]
+207 info retry fetch attempt 1 at 21:03:11
+208 info attempt registry request try #1 at 21:03:11
+209 http fetch GET https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.6.0.tgz
+210 http 200 https://registry.npmjs.org/qiniu
+211 silly get cb [ 200,
+211 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+211 silly get     etag: '"CQGFZWGLGW1EZVA4YLLK8Y83D"',
+211 silly get     'content-type': 'application/json',
+211 silly get     'cache-control': 'max-age=60',
+211 silly get     'content-length': '21833',
+211 silly get     'accept-ranges': 'bytes',
+211 silly get     date: 'Thu, 28 May 2015 13:03:11 GMT',
+211 silly get     via: '1.1 varnish',
+211 silly get     age: '0',
+211 silly get     connection: 'keep-alive',
+211 silly get     'x-served-by': 'cache-fra1229-FRA',
+211 silly get     'x-cache': 'MISS',
+211 silly get     'x-cache-hits': '0',
+211 silly get     'x-timer': 'S1432818190.889877,VS0,VE734',
+211 silly get     vary: 'Accept' } ]
+212 verbose get saving qiniu to /Users/zhanghengyang/.npm/registry.npmjs.org/qiniu/.cache.json
+213 silly mapToRegistry name qiniu
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry uri https://registry.npmjs.org/qiniu
+217 verbose addRemoteTarball https://registry.npmjs.org/qiniu/-/qiniu-6.1.3.tgz not in flight; adding
+218 verbose addRemoteTarball [ 'https://registry.npmjs.org/qiniu/-/qiniu-6.1.3.tgz',
+218 verbose addRemoteTarball   '8b50f8f1af9e8c35cf10829c6bf0c6b6ef441b71' ]
+219 info retry fetch attempt 1 at 21:03:12
+220 info attempt registry request try #1 at 21:03:12
+221 http fetch GET https://registry.npmjs.org/qiniu/-/qiniu-6.1.3.tgz
+222 http fetch 200 https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.6.0.tgz
+223 silly fetchAndShaCheck shasum 493d285f59266fdcb8d4fefd25345a7b693c966c
+224 verbose addTmpTarball /tmp/npm-61200-fa6e01eb/registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.6.0.tgz not in flight; adding
+225 verbose addTmpTarball already have metadata; skipping unpack for xmlhttprequest@1.6.0
+226 silly cache afterAdd xmlhttprequest@1.6.0
+227 verbose afterAdd /Users/zhanghengyang/.npm/xmlhttprequest/1.6.0/package/package.json not in flight; writing
+228 verbose afterAdd /Users/zhanghengyang/.npm/xmlhttprequest/1.6.0/package/package.json written
+229 http fetch 200 https://registry.npmjs.org/qiniu/-/qiniu-6.1.3.tgz
+230 silly fetchAndShaCheck shasum 8b50f8f1af9e8c35cf10829c6bf0c6b6ef441b71
+231 verbose addTmpTarball /tmp/npm-61200-fa6e01eb/registry.npmjs.org/qiniu/-/qiniu-6.1.3.tgz not in flight; adding
+232 verbose addTmpTarball already have metadata; skipping unpack for qiniu@6.1.3
+233 silly cache afterAdd qiniu@6.1.3
+234 verbose afterAdd /Users/zhanghengyang/.npm/qiniu/6.1.3/package/package.json not in flight; writing
+235 verbose afterAdd /Users/zhanghengyang/.npm/qiniu/6.1.3/package/package.json written
+236 silly install resolved [ { name: 'xmlhttprequest',
+236 silly install resolved     description: 'XMLHttpRequest for Node',
+236 silly install resolved     version: '1.6.0',
+236 silly install resolved     author: { name: 'Dan DeFelippi', url: 'http://driverdan.com' },
+236 silly install resolved     keywords: [ 'xhr', 'ajax' ],
+236 silly install resolved     licenses: [ [Object] ],
+236 silly install resolved     repository:
+236 silly install resolved      { type: 'git',
+236 silly install resolved        url: 'git://github.com/driverdan/node-XMLHttpRequest.git' },
+236 silly install resolved     bugs: { url: 'http://github.com/driverdan/node-XMLHttpRequest/issues' },
+236 silly install resolved     engines: { node: '>=0.4.0' },
+236 silly install resolved     directories: { lib: './lib', example: './example' },
+236 silly install resolved     main: './lib/XMLHttpRequest.js',
+236 silly install resolved     _id: 'xmlhttprequest@1.6.0',
+236 silly install resolved     dist:
+236 silly install resolved      { shasum: '493d285f59266fdcb8d4fefd25345a7b693c966c',
+236 silly install resolved        tarball: 'http://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.6.0.tgz' },
+236 silly install resolved     _from: 'xmlhttprequest@1.6.0',
+236 silly install resolved     _npmVersion: '1.2.32',
+236 silly install resolved     _npmUser: { name: 'driverdan', email: 'dan@driverdan.com' },
+236 silly install resolved     maintainers: [ [Object] ],
+236 silly install resolved     _shasum: '493d285f59266fdcb8d4fefd25345a7b693c966c',
+236 silly install resolved     _resolved: 'https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.6.0.tgz' },
+236 silly install resolved   { name: 'qiniu',
+236 silly install resolved     version: '6.1.3',
+236 silly install resolved     description: 'Node wrapper for Qiniu Resource (Cloud) Storage API',
+236 silly install resolved     main: 'index.js',
+236 silly install resolved     directories: { test: 'test' },
+236 silly install resolved     scripts: { test: 'make test' },
+236 silly install resolved     repository: { type: 'git', url: 'git://github.com/qiniu/nodejs-sdk.git' },
+236 silly install resolved     bugs: { url: 'https://github.com/qiniu/nodejs-sdk/issues' },
+236 silly install resolved     keywords: [ 'cloud', 'storage', 's3', 'qiniu', 'web-service' ],
+236 silly install resolved     author: { name: 'qiniutek.com' },
+236 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+236 silly install resolved     engines: [ 'node >= 0.4.7' ],
+236 silly install resolved     dependencies:
+236 silly install resolved      { mime: '1.2.9',
+236 silly install resolved        formstream: '0.0.7',
+236 silly install resolved        crc32: '0.2.2',
+236 silly install resolved        urllib: '0.5.1' },
+236 silly install resolved     devDependencies:
+236 silly install resolved      { should: '1.2.2',
+236 silly install resolved        pedding: '*',
+236 silly install resolved        mocha: '*',
+236 silly install resolved        blanket: '*',
+236 silly install resolved        'travis-cov': '*' },
+236 silly install resolved     license: 'MIT',
+236 silly install resolved     _id: 'qiniu@6.1.3',
+236 silly install resolved     dist:
+236 silly install resolved      { shasum: '8b50f8f1af9e8c35cf10829c6bf0c6b6ef441b71',
+236 silly install resolved        tarball: 'http://registry.npmjs.org/qiniu/-/qiniu-6.1.3.tgz' },
+236 silly install resolved     _from: 'qiniu@6.1.3',
+236 silly install resolved     _npmVersion: '1.3.11',
+236 silly install resolved     _npmUser: { name: 'qiniusdk', email: 'sdk@qiniu.com' },
+236 silly install resolved     maintainers: [ [Object], [Object] ],
+236 silly install resolved     _shasum: '8b50f8f1af9e8c35cf10829c6bf0c6b6ef441b71',
+236 silly install resolved     _resolved: 'https://registry.npmjs.org/qiniu/-/qiniu-6.1.3.tgz' } ]
+237 info install xmlhttprequest@1.6.0 into /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk
+238 info install qiniu@6.1.3 into /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk
+239 info installOne xmlhttprequest@1.6.0
+240 verbose installOne of xmlhttprequest to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk not in flight; installing
+241 info installOne qiniu@6.1.3
+242 verbose installOne of qiniu to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk not in flight; installing
+243 verbose lock using /Users/zhanghengyang/.npm/_locks/xmlhttprequest-5af7df5fe0ab03b4.lock for /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+244 verbose lock using /Users/zhanghengyang/.npm/_locks/qiniu-56afbe160170646a.lock for /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/qiniu
+245 silly install write writing xmlhttprequest 1.6.0 to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+246 silly install write writing qiniu 6.1.3 to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/qiniu
+247 silly cache addNamed cb xmlhttprequest@1.6.0
+248 verbose unbuild node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+249 silly cache addNamed cb qiniu@6.1.3
+250 verbose unbuild node_modules/avoscloud-sdk/node_modules/qiniu
+251 verbose gentlyRm vacuuming /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+252 verbose tar unpack /Users/zhanghengyang/.npm/xmlhttprequest/1.6.0/package.tgz
+253 verbose tar unpacking to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+254 verbose gentlyRm vacuuming /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+255 verbose gentlyRm vacuuming /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/qiniu
+256 silly gunzTarPerm modes [ '755', '644' ]
+257 verbose tar unpack /Users/zhanghengyang/.npm/qiniu/6.1.3/package.tgz
+258 verbose tar unpacking to /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/qiniu
+259 verbose gentlyRm vacuuming /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/qiniu
+260 silly gunzTarPerm modes [ '755', '644' ]
+261 silly gunzTarPerm extractEntry package.json
+262 silly gunzTarPerm extractEntry package.json
+263 silly gunzTarPerm extractEntry README.md
+264 silly gunzTarPerm extractEntry LICENSE
+265 silly gunzTarPerm extractEntry .npmignore
+266 silly gunzTarPerm extractEntry README.md
+267 silly gunzTarPerm extractEntry autotest.watchr
+268 silly gunzTarPerm extractEntry example/demo.js
+269 silly gunzTarPerm extractEntry index.js
+270 silly gunzTarPerm extractEntry CHANGELOG.md
+271 silly gunzTarPerm extractEntry lib/XMLHttpRequest.js
+272 silly gunzTarPerm extractEntry tests/test-constants.js
+273 silly gunzTarPerm extractEntry tests/test-events.js
+274 silly gunzTarPerm extractEntry tests/test-exceptions.js
+275 silly gunzTarPerm extractEntry tests/test-headers.js
+276 silly gunzTarPerm extractEntry tests/test-redirect-302.js
+277 silly gunzTarPerm extractEntry tests/test-redirect-303.js
+278 silly gunzTarPerm extractEntry tests/test-redirect-307.js
+279 silly gunzTarPerm extractEntry tests/test-request-methods.js
+280 silly gunzTarPerm extractEntry tests/test-request-protocols.js
+281 silly gunzTarPerm extractEntry tests/testdata.txt
+282 silly gunzTarPerm extractEntry qiniu/conf.js
+283 silly gunzTarPerm extractEntry qiniu/fop.js
+284 silly gunzTarPerm extractEntry qiniu/io.js
+285 silly gunzTarPerm extractEntry qiniu/rpc.js
+286 silly gunzTarPerm extractEntry qiniu/rs.js
+287 silly gunzTarPerm extractEntry qiniu/rsf.js
+288 silly gunzTarPerm extractEntry qiniu/util.js
+289 silly gunzTarPerm extractEntry qiniu/auth/digest.js
+290 info preinstall qiniu@6.1.3
+291 silly prepareForInstallMany adding mime@1.2.9 from qiniu dependencies
+292 silly prepareForInstallMany adding formstream@0.0.7 from qiniu dependencies
+293 silly prepareForInstallMany adding crc32@0.2.2 from qiniu dependencies
+294 silly prepareForInstallMany adding urllib@0.5.1 from qiniu dependencies
+295 silly cache add args [ 'crc32@0.2.2', null ]
+296 verbose cache add spec crc32@0.2.2
+297 silly cache add parsed spec { raw: 'crc32@0.2.2',
+297 silly cache add   scope: null,
+297 silly cache add   name: 'crc32',
+297 silly cache add   rawSpec: '0.2.2',
+297 silly cache add   spec: '0.2.2',
+297 silly cache add   type: 'version' }
+298 verbose addNamed crc32@0.2.2
+299 silly addNamed semver.valid 0.2.2
+300 silly addNamed semver.validRange 0.2.2
+301 silly mapToRegistry name crc32
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry https://registry.npmjs.org/
+304 silly mapToRegistry uri https://registry.npmjs.org/crc32
+305 verbose addNameVersion registry:https://registry.npmjs.org/crc32 not in flight; fetching
+306 silly cache add args [ 'urllib@0.5.1', null ]
+307 verbose cache add spec urllib@0.5.1
+308 silly cache add parsed spec { raw: 'urllib@0.5.1',
+308 silly cache add   scope: null,
+308 silly cache add   name: 'urllib',
+308 silly cache add   rawSpec: '0.5.1',
+308 silly cache add   spec: '0.5.1',
+308 silly cache add   type: 'version' }
+309 verbose addNamed urllib@0.5.1
+310 silly addNamed semver.valid 0.5.1
+311 silly addNamed semver.validRange 0.5.1
+312 silly mapToRegistry name urllib
+313 silly mapToRegistry using default registry
+314 silly mapToRegistry registry https://registry.npmjs.org/
+315 silly mapToRegistry uri https://registry.npmjs.org/urllib
+316 verbose addNameVersion registry:https://registry.npmjs.org/urllib not in flight; fetching
+317 silly cache add args [ 'mime@1.2.9', null ]
+318 verbose cache add spec mime@1.2.9
+319 silly cache add parsed spec { raw: 'mime@1.2.9',
+319 silly cache add   scope: null,
+319 silly cache add   name: 'mime',
+319 silly cache add   rawSpec: '1.2.9',
+319 silly cache add   spec: '1.2.9',
+319 silly cache add   type: 'version' }
+320 verbose addNamed mime@1.2.9
+321 silly addNamed semver.valid 1.2.9
+322 silly addNamed semver.validRange 1.2.9
+323 silly mapToRegistry name mime
+324 silly mapToRegistry using default registry
+325 silly mapToRegistry registry https://registry.npmjs.org/
+326 silly mapToRegistry uri https://registry.npmjs.org/mime
+327 verbose addNameVersion registry:https://registry.npmjs.org/mime not in flight; fetching
+328 silly cache add args [ 'formstream@0.0.7', null ]
+329 verbose cache add spec formstream@0.0.7
+330 silly cache add parsed spec { raw: 'formstream@0.0.7',
+330 silly cache add   scope: null,
+330 silly cache add   name: 'formstream',
+330 silly cache add   rawSpec: '0.0.7',
+330 silly cache add   spec: '0.0.7',
+330 silly cache add   type: 'version' }
+331 verbose addNamed formstream@0.0.7
+332 silly addNamed semver.valid 0.0.7
+333 silly addNamed semver.validRange 0.0.7
+334 silly mapToRegistry name formstream
+335 silly mapToRegistry using default registry
+336 silly mapToRegistry registry https://registry.npmjs.org/
+337 silly mapToRegistry uri https://registry.npmjs.org/formstream
+338 verbose addNameVersion registry:https://registry.npmjs.org/formstream not in flight; fetching
+339 verbose request uri https://registry.npmjs.org/crc32
+340 verbose request no auth needed
+341 info attempt registry request try #1 at 21:03:14
+342 verbose etag "AXJVHF8M1WYTQT3D7FF03ZDXQ"
+343 http request GET https://registry.npmjs.org/crc32
+344 verbose request uri https://registry.npmjs.org/urllib
+345 verbose request no auth needed
+346 info attempt registry request try #1 at 21:03:14
+347 verbose etag "5BHRZ7E8XE2Q4KAOSH6TJRLUJ"
+348 http request GET https://registry.npmjs.org/urllib
+349 verbose request uri https://registry.npmjs.org/mime
+350 verbose request no auth needed
+351 info attempt registry request try #1 at 21:03:14
+352 verbose etag "3ZRQIU5H2D52GRYT3000WPDFS"
+353 http request GET https://registry.npmjs.org/mime
+354 verbose request uri https://registry.npmjs.org/formstream
+355 verbose request no auth needed
+356 info attempt registry request try #1 at 21:03:14
+357 verbose etag "1FSECU7CCU7ADPIEUPIWR6F2G"
+358 http request GET https://registry.npmjs.org/formstream
+359 info preinstall xmlhttprequest@1.6.0
+360 silly install resolved []
+361 verbose about to build /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+362 info build /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+363 verbose linkStuff [ false,
+363 verbose linkStuff   false,
+363 verbose linkStuff   false,
+363 verbose linkStuff   '/Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules' ]
+364 info linkStuff xmlhttprequest@1.6.0
+365 verbose linkBins xmlhttprequest@1.6.0
+366 verbose linkMans xmlhttprequest@1.6.0
+367 verbose rebuildBundles xmlhttprequest@1.6.0
+368 info install xmlhttprequest@1.6.0
+369 info postinstall xmlhttprequest@1.6.0
+370 verbose unlock done using /Users/zhanghengyang/.npm/_locks/xmlhttprequest-5af7df5fe0ab03b4.lock for /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/node_modules/avoscloud-sdk/node_modules/xmlhttprequest
+371 http 304 https://registry.npmjs.org/mime
+372 silly get cb [ 304,
+372 silly get   { date: 'Thu, 28 May 2015 13:03:15 GMT',
+372 silly get     via: '1.1 varnish',
+372 silly get     'cache-control': 'max-age=60',
+372 silly get     etag: '"3ZRQIU5H2D52GRYT3000WPDFS"',
+372 silly get     age: '36',
+372 silly get     connection: 'keep-alive',
+372 silly get     'x-served-by': 'cache-fra1230-FRA',
+372 silly get     'x-cache': 'HIT',
+372 silly get     'x-cache-hits': '2',
+372 silly get     'x-timer': 'S1432818195.779785,VS0,VE0',
+372 silly get     vary: 'Accept' } ]
+373 verbose etag https://registry.npmjs.org/mime from cache
+374 verbose get saving mime to /Users/zhanghengyang/.npm/registry.npmjs.org/mime/.cache.json
+375 silly cache afterAdd mime@1.2.9
+376 verbose afterAdd /Users/zhanghengyang/.npm/mime/1.2.9/package/package.json not in flight; writing
+377 verbose afterAdd /Users/zhanghengyang/.npm/mime/1.2.9/package/package.json written
+378 http 304 https://registry.npmjs.org/formstream
+379 silly get cb [ 304,
+379 silly get   { date: 'Thu, 28 May 2015 13:03:15 GMT',
+379 silly get     via: '1.1 varnish',
+379 silly get     'cache-control': 'max-age=60',
+379 silly get     etag: '"1FSECU7CCU7ADPIEUPIWR6F2G"',
+379 silly get     age: '0',
+379 silly get     connection: 'keep-alive',
+379 silly get     'x-served-by': 'cache-fra1224-FRA',
+379 silly get     'x-cache': 'MISS',
+379 silly get     'x-cache-hits': '0',
+379 silly get     'x-timer': 'S1432818195.776939,VS0,VE104',
+379 silly get     vary: 'Accept' } ]
+380 verbose etag https://registry.npmjs.org/formstream from cache
+381 verbose get saving formstream to /Users/zhanghengyang/.npm/registry.npmjs.org/formstream/.cache.json
+382 silly cache afterAdd formstream@0.0.7
+383 verbose afterAdd /Users/zhanghengyang/.npm/formstream/0.0.7/package/package.json not in flight; writing
+384 verbose afterAdd /Users/zhanghengyang/.npm/formstream/0.0.7/package/package.json written
+385 http 304 https://registry.npmjs.org/crc32
+386 silly get cb [ 304,
+386 silly get   { date: 'Thu, 28 May 2015 13:03:15 GMT',
+386 silly get     via: '1.1 varnish',
+386 silly get     'cache-control': 'max-age=60',
+386 silly get     etag: '"AXJVHF8M1WYTQT3D7FF03ZDXQ"',
+386 silly get     age: '0',
+386 silly get     connection: 'keep-alive',
+386 silly get     'x-served-by': 'cache-fra1224-FRA',
+386 silly get     'x-cache': 'HIT',
+386 silly get     'x-cache-hits': '1',
+386 silly get     'x-timer': 'S1432818195.809832,VS0,VE105',
+386 silly get     vary: 'Accept' } ]
+387 verbose etag https://registry.npmjs.org/crc32 from cache
+388 verbose get saving crc32 to /Users/zhanghengyang/.npm/registry.npmjs.org/crc32/.cache.json
+389 silly cache afterAdd crc32@0.2.2
+390 verbose afterAdd /Users/zhanghengyang/.npm/crc32/0.2.2/package/package.json not in flight; writing
+391 verbose afterAdd /Users/zhanghengyang/.npm/crc32/0.2.2/package/package.json written
+392 verbose stack Error: read ECONNRESET
+392 verbose stack     at exports._errnoException (util.js:746:11)
+392 verbose stack     at TCP.onread (net.js:550:26)
+393 verbose cwd /Users/zhanghengyang/WebstormProjects/senz.datasource.timeline.testxiaoping/cloud
+394 error Darwin 14.3.0
+395 error argv "node" "/usr/local/bin/npm" "install" "avoscloud-sdk"
+396 error node v0.12.0
+397 error npm  v2.5.1
+398 error code ECONNRESET
+399 error errno ECONNRESET
+400 error syscall read
+401 error network read ECONNRESET
+401 error network This is most likely not a problem with npm itself
+401 error network and is related to network connectivity.
+401 error network In most cases you are behind a proxy or have bad network settings.
+401 error network
+401 error network If you are behind a proxy, please make sure that the
+401 error network 'proxy' config is set properly.  See: 'npm help config'
+402 verbose exit [ 1, true ]
